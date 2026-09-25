@@ -62,6 +62,6 @@ jobs:
 
             - macOS: download the `.dmg` file
             - Windows: download the NSIS installer `.exe`
-          releaseDraft: true
+          releaseDraft: false
           prerelease: false
           args: ${{ matrix.args }}

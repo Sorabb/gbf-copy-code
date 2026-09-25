@@ -101,7 +101,7 @@ Svelte + TypeScript UI
 ## CI/CD
 
 - `CI`：提交和 Pull Request 会在 macOS、Windows 上执行前端检查、Rust 测试、格式检查和 Clippy。
-- `Release`：推送 `v*` 标签后自动构建 macOS DMG 与 Windows NSIS 安装包，并创建 GitHub Draft Release。
+- `Release`：推送 `v*` 标签后自动构建 macOS DMG 与 Windows NSIS 安装包，并发布 GitHub Release。
 - 也可以从 Actions 页面手动运行 Release 工作流，并输入要发布的 `v*` 版本号。
 
 发布示例：
